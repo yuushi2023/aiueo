@@ -9,8 +9,8 @@ client = discord.Client(intents = intents)
 tree = discord.app_commands.CommandTree(client)
 
 
-ipath="join/v2/1.json"
-ipath2="join/v2/1"
+ipath="aiueo/1.json"
+ipath2="aiueo/"
 CLIENT_ID = ['1183366835836551168']
 my_secret = ['TlJwVp9BW7dvBOWlsz4GOLgmdxfzbjsx']
 CLIENT_SECRET = my_secret
