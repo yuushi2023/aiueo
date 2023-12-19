@@ -11,8 +11,8 @@ app = Flask("app")
 app.config["DISCORD_AUTHORIZATION"] = "MTE4MzM2NjgzNTgzNjU1MTE2OA.GqQIOG.PgM6ol1OyiKviuQLOaVk9l2D4ZIQ9VhUO0aEPQ"
 Discord = FlaskDiscord(app)
 
-ipath="join/v2/1.json"
-ipath2="join/v2/1"
+ipath="aiueo/1.json"
+ipath2="aiueo/"
 
 @app.route('/', methods=["GET"])
 def index():
